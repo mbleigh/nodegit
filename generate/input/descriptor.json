@@ -1103,6 +1103,12 @@
     "remote": {
       "cType": "git_remote",
       "functions": {
+        "git_remote_download": {
+          "isAsync": true,
+          "return": {
+            "isErrorCode": true
+          }
+        },
         "git_remote_default_branch": {
           "ignore": true
         },
