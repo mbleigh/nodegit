@@ -127,5 +127,21 @@
     "returnNoResults": 1,
     "returnSuccess": 0,
     "returnError": -1
+  },
+  "git_transfer_progress_cb": {
+    "args": [
+      {
+        "name": "stats",
+        "cType": "const git_transfer_progress *"
+      },
+      {
+        "name": "payload",
+        "cType": "void *"
+      }
+    ],
+    "returnType": "int",
+    "returnNoResults": 1,
+    "returnSuccess": 0,
+    "returnError": -1
   }
 }
