@@ -1109,6 +1109,11 @@
     "remote": {
       "cType": "git_remote",
       "functions": {
+        "git_remote_connect": {
+          "return": {
+            "isErrorCode": true
+          }
+        },
         "git_remote_download": {
           "isAsync": true,
           "return": {
